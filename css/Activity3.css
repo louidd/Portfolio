@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    padding: 10px;
+    background-color: #f8ad66;
+    display: flex;
+    justify-content: center;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #f8ad66;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #e89c53;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(234, 173, 67);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(233, 183, 56);
+}
+
+.table {
+    padding: 20px;
+}
+
+#products {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#products td, #products th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#products tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#products tr:hover {
+    background-color: #f1f1f1;
+}
+
+#products th {
+    padding: 10px;
+    text-align: left;
+    background-color: rgb(242, 161, 31);
+    color: white;
+}
+
+img {
+    width: 50px;
+}
